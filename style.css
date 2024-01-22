@@ -1,0 +1,109 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#FF9BD2;
+  }
+  
+  .w3-top {
+    position: fixed;
+    width: 80%;
+    z-index: 1;
+  }
+  
+  .w3-row.w3-padding.w3-black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .w3-col.s3 {
+    width: 20%; 
+  }
+  
+  .w3-button.w3-block.w3-black {
+    text-align: center;
+  }
+  
+  h1, h2 {
+    color: #F8F4EC;
+    text-align: center;
+    font-size: 120px;
+    font-weight: lighter;
+  }
+  
+h3 {
+  text-align: left;
+  color: #F8F4EC;
+  font-size: medium;
+}
+
+  p {
+    color: #F8F4EC;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .image{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+
+ .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ }
+
+ .popup .popop-text {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+ }
+
+ .popup .popop-text::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+ }
+
+ .popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s ;
+  animation: fadeIn 1s;
+ }
+
+ @-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to{opacity: 1;}
+ }
+
+ @keyframes fadeIn {
+  from {opacity: o;}
+  to {opacity: 1;}
+ }
+
+ 
+  

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title> Yummy Yummy Cakes </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="smth.js"></script>
+</head>
+<body>
+
+<!--navigation bar taken from w3 schools bc nothing i tried worked-->
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+      <div class="w3-col s3">
+        <a href="#home" class="w3-button w3-block w3-black">home</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black">about</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#menu" class="w3-button w3-block w3-black">menu</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#contacts" class="w3-button w3-block w3-black">contacts</a>
+      </div>
+    </div>
+  </div>
+
+  <!--header home-->
+  <header class="header-container" id="home">
+  <img class="header image" src="https://images.squarespace-cdn.com/content/v1/560dbc25e4b0969564758eb5/1561205548068-B2B1KA37G0TEM80BVJ80/Peggy+Porschen+Cakes+%23London+%23cupcakes"
+  alt="cafe" width="1600" height="800">
+  <div class="header-overlay">
+  </div>
+</header>
+
+<!--about section-->
+<div class="about-section" id="about">
+<div class="about-text-contianer">
+    <h1 class="about-heading"> About us</h1><br> 
+    <h2 class="about-paragraph">Are you looking for a tasty cake? Or perhaps a special looking cake? Well you found the right place!</h2><br>
+    <p>Our cafe is ready to provide with delicious and beautiful for every occasion. Our team of professional pastry chefs is prepared to make your dream cake come true, using only the hightest quality of ingridients.</p><br>
+</div>
+</div>
+
+<hr>
+
+<!--menu-->
+<div class="menu-section" id="menu">
+  <div class="menu-image">
+    <h1 class="menu"> Menu </h1>
+        <h2 class="menu-submenu">Chocolate Delight</h2>
+        <p>Delicious chocolate cake to sweeten your heart's desires.</p><br>
+
+        <h2>Vanilla Milky Way</h2>
+        <p>Let the vanilla cream form a milky way to your heart.</p><br>
+
+        <h2>Strawberry Garden</h2>
+        <p>A numerous strawberries handpicked for you and your enjoyment.</p><br>
+     <img class="image" src="https://i.ytimg.com/vi/OHXLCqvP7AM/maxresdefault.jpg" alt="lotsa cakes baby"> <br>
+      </div>    
+</div>
+
+<hr>
+<!--contacts-->
+<div class="contacts-section" id="contacts"></div>
+<h1 class="contacts"> You can contact us here:</h1> <br>
+<p> email:idk-cakes-man@gmail.com</p>
+<p> phone:4206942069</p>
+<p>Or order here:</p>
+<form id="form-order">
+  <p><input class="name" type="text" placeholder="Name" required name="Name"></p>
+  <p> <input class="slices" type="number" placeholder="How many slices" required name="Number"></p>
+  <p> <input class="date-time" type="datetime-local" placeholder="Date and time" required name="date" value="2024-01-22T13:00"></p>
+  <p> <input class="specifics" type="text" placeholder="any alergies or specifics" required name="message"></p>
+</form>
+</div>
+
+<!--pop up window-->
+<div class="popup" onclick="myFunction"> sumbit here
+  <div class="order-container">
+    <span class="popup-text" id="popupPls">Order submitted successfully!</span>
+  </div>
+</div>
+
+</body>
+</html>
